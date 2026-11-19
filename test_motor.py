@@ -1,6 +1,6 @@
 """Tests del motor. Ejecutar con: pytest"""
 
-from motor_backup import (Regla, adelante, atras, cargar, explicar,
+from motor import (Regla, adelante, atras, cargar, explicar,
                    por_especificidad, por_orden)
 
 REGLAS = cargar("red.yaml")
